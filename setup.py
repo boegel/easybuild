@@ -1,6 +1,5 @@
 ##
-# Copyright 2012 Ghent University
-# Copyright 2012 Kenneth Hoste
+# Copyright 2012-2014 Ghent University
 #
 # This file is part of EasyBuild,
 # originally created by the HPC team of Ghent University (http://ugent.be/hpc/en),
@@ -36,7 +35,7 @@ from distutils import log
 
 # note: release candidates should be versioned as a pre-release, e.g. "1.1rc1"
 # 1.1-rc1 would indicate a post-release, i.e., and update of 1.1, so beware
-VERSION = "1.0.1dev"
+VERSION = "1.15.2"
 
 # Utility function to read README file
 def read(fname):
@@ -66,18 +65,18 @@ install software in a structured and robust way. """,
     url = "http://hpcugent.github.com/easybuild",
     long_description = read("README.rst"),
     classifiers = [
-                   "Development Status :: 5 - Production/Stable",
-                   "Environment :: Console",
-                   "Intended Audience :: System Administrators",
-                   "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
-                   "Operating System :: POSIX :: Linux",
-                   "Programming Language :: Python :: 2.4",
-                   "Topic :: Software Development :: Build Tools",
-                  ],
+        "Development Status :: 5 - Production/Stable",
+        "Environment :: Console",
+        "Intended Audience :: System Administrators",
+        "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+        "Operating System :: POSIX :: Linux",
+        "Programming Language :: Python :: 2.4",
+        "Topic :: Software Development :: Build Tools",
+    ],
     platforms = "Linux",
     install_requires = [
-                        "easybuild-easyconfigs == 1.0.0",
-                        "easybuild-easyblocks == 1.0.1",
-                        "easybuild-framework == 1.0.1",  # order matters here, framework should be after easyblocks!
-                       ]
+        "easybuild-easyconfigs == 1.15.2.0",
+        "easybuild-easyblocks == 1.15.2",
+        "easybuild-framework == 1.15.2",  # order matters here, framework should be after easyblocks!
+    ]
 )
