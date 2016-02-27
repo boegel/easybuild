@@ -114,3 +114,8 @@ EasyBuild was created with support of `Ghent University <http://www.ugent.be/en>
 `the Hercules foundation <http://www.herculesstichting.be/in_English>`_ and
 `the Department of Economy, Science and Innovation (EWI) <http://www.ewi-vlaanderen.be/en>`_ .
 
+
+
+.. image:: https://badges.gitter.im/boegel/easybuild.svg
+   :alt: Join the chat at https://gitter.im/boegel/easybuild
+   :target: https://gitter.im/boegel/easybuild?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
