@@ -1,5 +1,3 @@
-.. _avail_easyconfig_params:
-
 .. _easyconfig_params:
 
 *(see also* ``eb -a`` or ``eb --avail-easyconfig-params`` *)*
