@@ -65,9 +65,7 @@ echo "" >> $VERSION_SPECIFIC_DIR/generic_easyblocks.rst
 python $generic_easyblocks_script >> $VERSION_SPECIFIC_DIR/generic_easyblocks.rst
 
 #  help doc
-echo ".. _eb_help:" > $VERSION_SPECIFIC_DIR/help.rst
-echo >> $VERSION_SPECIFIC_DIR/help.rst
-echo ".. _basic_usage_help:" >> $VERSION_SPECIFIC_DIR/help.rst
+echo ".. _basic_usage_help:" > $VERSION_SPECIFIC_DIR/help.rst
 echo >> $VERSION_SPECIFIC_DIR/help.rst
 echo "*(see also* \`\`eb --help\`\` *)*" >> $VERSION_SPECIFIC_DIR/help.rst
 echo >> $VERSION_SPECIFIC_DIR/help.rst

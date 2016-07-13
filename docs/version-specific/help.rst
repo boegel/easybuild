@@ -1,5 +1,3 @@
-.. _eb_help:
-
 .. _basic_usage_help:
 
 *(see also* ``eb --help`` *)*
