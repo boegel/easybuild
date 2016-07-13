@@ -1,5 +1,4 @@
 .. _list_easyblocks:
-*(see also* ``eb --list-easyblocks`` and :ref:`generic_easyblocks` *)*
 
 * **EasyBlock**
     * Binary

@@ -1,5 +1,4 @@
 .. _avail_easyconfig_constants:
-*(see also* ``eb --avail-easyconfig-constants`` *)*
 
 Constants that can be used in easyconfigs
 -----------------------------------------
