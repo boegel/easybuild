@@ -8,7 +8,7 @@ HPC-UGent (Belgium)
 
 :website: http://www.ugent.be/hpc
 
-:institute: Ghent University - http://www.ugent.be
+:institution: Ghent University - http://www.ugent.be
 
 :contact: Kenneth Hoste (kenneth.hoste@ugent.be)
 
