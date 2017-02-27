@@ -5,6 +5,8 @@ Swiss National Supercomputing Centre (CSCS) - Switzerland
 
 :website: http://cscs.ch/
 
+:institution: ETH - https://www.ethz.ch
+
 :contact: *(to be completed)*
 
 *(last update: Oct 23rd 2016)*
