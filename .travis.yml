@@ -6,10 +6,6 @@ matrix:
   allow_failures:
     # pip install will fail because easybuild-* packages are not compatible yet with Python 3
     - "3.6"
-addons:
-  apt:
-    packages:
-        - lmod
 # command to install dependencies
 install:
   - pip install sphinx codespell
@@ -23,4 +19,5 @@ script:
   - READTHEDOCS=1 sphinx-build docs build
   # test installation too
   - pip install $TRAVIS_BUILD_DIR
-  - eb --prefix /tmp/$USER bzip2-1.0.6.eb --disable-modules-tool-version-check
+  - eb --list-easyblocks | grep EB_bzip2
+  - eb --search bzip2 | grep 'bzip2-1\.0\.6\.eb'
