@@ -23,4 +23,4 @@ script:
   - READTHEDOCS=1 sphinx-build docs build
   # test installation too
   - pip install $TRAVIS_BUILD_DIR
-  - eb --disable-modules-tool-version-check --prefix /tmp/$USER bzip2-1.0.6.eb
+  - eb --prefix /tmp/$USER bzip2-1.0.6.eb --disable-modules-tool-version-check
