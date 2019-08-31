@@ -1,6 +1,10 @@
 language: python
 python:
-  - "3.6"
+  - "2.7"
+matrix:
+  allow_failures:
+    # pip install will fail because easybuild-* packages are not compatible yet with Python 3
+    - "3.6"
 # command to install dependencies
 install:
   - pip install sphinx codespell
