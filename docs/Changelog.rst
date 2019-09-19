@@ -5,6 +5,7 @@ Changelog for EasyBuild documentation
 
 (for EasyBuild release notes, see :ref:`release_notes`)
 
+* **release 20190919.01** (`Sep 19th 2019`): :ref:`overview of major changes in EasyBuild v4.0 <eb4_changes_overview>`
 * **release 20190823.01** (`Aug 23rd 2019`): update release notes for EasyBuild v3.9.4 (see :ref:`release_notes_eb394`)
 * **release 20190708.01** (`Jul 8th 2019`): update release notes for EasyBuild v3.9.3 (see :ref:`release_notes_eb393`)
 * **release 20190609.01** (`Jun 9th 2019`): update release notes for EasyBuild v3.9.2 (see :ref:`release_notes_eb392`)
