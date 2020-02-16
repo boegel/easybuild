@@ -109,6 +109,13 @@ University <https://ugent.be/hpc>`_, is currently maintained by the
 `EasyBuild community <https://github.com/easybuilders>`_,
 and is made available under the GNU General Public License (GPL) version 2.
 
+Code of Conduct
+~~~~~~~~~~~~~~~
+
+Please note that EasyBuild has a `Code of Conduct <CODE_OF_CONDUCT.md>`_.
+
+By participating in the EasyBuild community, you agree to abide by its rules.
+
 Acknowledgements
 ~~~~~~~~~~~~~~~~
 
