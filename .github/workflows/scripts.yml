@@ -138,7 +138,8 @@ jobs:
 
         # check use of script in correct way, should yield "SUCCESS" in output
         $GITHUB_WORKSPACE/scripts/create_source_tarball.sh ${{matrix.repo}} $version 2>&1 | tee $out
-        egrep "SUCCESS|Source tarball for ${{matrix.repo}} ${version} is ready for publishing with" $out
+        grep "SUCCESS" $out
+        grep "Source tarball for ${{matrix.repo}} ${version} is ready for publishing with" $out
         # no errors in output
         errors=$(grep ERROR $out || true)
         if [ ! -z $errors ]; then "Errors found: $errors"; fi
